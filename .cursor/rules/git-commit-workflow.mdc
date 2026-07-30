@@ -1,0 +1,13 @@
+---
+description: Git commit and push workflow for this repo
+alwaysApply: true
+---
+
+# Commit & Push Workflow
+
+- Push directly to `main`. Do not create feature branches for this workspace unless the user explicitly asks for one.
+- Before committing any changes to this Next.js project, run `npm run build` and confirm it completes with no errors. Fix build errors before committing.
+- Write descriptive commit messages that explain the "why", not just the "what". Include ticket/issue info in the message when one is referenced in the conversation.
+- Never include "Made with Cursor", "Generated with Cursor", or similar attribution lines in commit messages.
+- Never commit secrets (tokens, API keys, `.env` files, PATs embedded in URLs, etc.). If one is found in a file about to be committed or in `.git/config`, stop and flag it instead of committing.
+- After committing, push to `origin main` and verify the push succeeded (check `git status` / `git log`).
