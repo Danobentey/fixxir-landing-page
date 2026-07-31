@@ -45,7 +45,7 @@ export function Survey() {
                     target="_blank"
                     rel="noopener noreferrer"
                     size="lg"
-                    className="bg-white text-brand-700 shadow-[0_14px_40px_-10px_rgba(0,0,0,0.6)] hover:bg-white hover:text-brand-600"
+                    className="!bg-white !text-brand-700 shadow-[0_14px_40px_-10px_rgba(0,0,0,0.6)] hover:!bg-white hover:!text-brand-600"
                   >
                     Take the survey
                     <svg viewBox="0 0 24 24" className="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor" strokeWidth="2.2">
